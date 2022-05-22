@@ -18,6 +18,13 @@
 @import 'sweetalert2/src/sweetalert2.scss';
 // import 'sweetalert2/src/sweetalert2.scss'
 
+#logout_sidebar_button {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);

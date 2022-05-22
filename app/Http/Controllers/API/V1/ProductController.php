@@ -31,7 +31,6 @@ class ProductController extends BaseController
     public function index()
     {
         $products = $this->product->latest()->with('category', 'tags')->paginate(10);
-
         return $this->sendResponse($products, 'Product list');
     }
 
